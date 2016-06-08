@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "graphFitting"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "some code graphFitting with c/c++"
 
   # This description is used to generate tags and improve search results.
@@ -91,7 +91,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "BestFit/BestFit/*.{*}"
+  s.source_files  = "*.{*}"
 
 
   # s.public_header_files = "Classes/**/*.h"
