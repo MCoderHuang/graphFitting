@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name     = 'graphFitting'
-  s.version  = '0.0.3'
+  s.version  = '0.0.1'
   s.license  = 'MIT'
   s.summary  = 'A fundation about graphFitting'
   s.homepage = 'http://www.wolai.me'
