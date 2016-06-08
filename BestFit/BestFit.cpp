@@ -205,7 +205,7 @@ float * BestFit::getResult() {
             result[4]=lineFit.endPoint.y;
         }
         else{
-            result=new float[0];
+            result=new float[1];
             result[0]=0;
             cout<<"not fit";
             
@@ -239,7 +239,7 @@ float * BestFit::getResult() {
             }
             
             else{
-                result=new float[0];
+                result=new float[1];
                 result[0]=0;
                 cout<<"not fit";
             }
@@ -255,15 +255,15 @@ void BestFit::reset(){
 }
 int main(int argc, char *argv[]) {
     
-    BestFit fit;
-    fit.startPoint(0.15625, 0.2083);
-    fit.updatePoint(0.078125, 0.15625);
-    fit.updatePoint(0, 0.10417);
-    fit.updatePoint(0.078125, 0.0521);
-    fit.updatePoint(0.15625, 0);
-    fit.updatePoint(0.234375, 0.0521);
-    fit.updatePoint(0.3125, 0.10417);
-    float * result= fit.finishPoint(0.234375, 0.15625);
+//    BestFit fit;
+//    fit.startPoint(50, 100);
+//    fit.updatePoint(25, 75);
+//    fit.updatePoint(0, 50);
+//    fit.updatePoint(25, 25);
+//    fit.updatePoint(50, 0);
+//    fit.updatePoint(75, 25);
+//    fit.updatePoint(100, 50);
+//    float * result= fit.finishPoint(75, 75);
     
     //    fit.startPoint(1, 1);
     //    fit.updatePoint(3, 3);
