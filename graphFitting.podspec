@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
     当前是为了解决我们在绘制过程中的不标准而用程序使绘制标准化
   }
 
-  s.source_files = 'graphFitting/*.{h,m,cpp,mm,txt,c,*}'
+  s.source_files = 'graphFitting/*.{h}'
 
   s.ios.deployment_target = '8.0' # minimum SDK with autolayout
 end
