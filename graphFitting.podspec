@@ -15,5 +15,4 @@ Pod::Spec.new do |s|
   s.source_files = 'graphFitting/*.{h,m,cpp,mm,txt,*}'
 
   s.ios.deployment_target = '8.0' # minimum SDK with autolayout
-  s.requires_arc = true
 end
