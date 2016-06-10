@@ -15,5 +15,4 @@ Pod::Spec.new do |s|
   s.source_files = 'BestFit/*'
 
   s.ios.deployment_target = '8.0' # minimum SDK with autolayout
-  s.osx.deployment_target = '10.7' # minimum SDK with autolayout
 end
